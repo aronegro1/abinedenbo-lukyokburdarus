@@ -8,7 +8,7 @@ public class text : MonoBehaviour
     void Start(){
        int a = 1;
     while(a != 2){
-       int bulletNumber3 = Random.Range(0,6);
+       int bulletNumber3 = Random.Range(1,7);
         bulletText.text = bulletNumber3.ToString("0");
        a++;
        }
